@@ -12,6 +12,7 @@ function Contact() {
         <h1 className='page-title'>Contact</h1>
         <img src={imgcontact} className='header-img'/>
         <Footer/>
+        
     </div>
   )
 }

@@ -12,11 +12,11 @@ function Home() {
         <h1 className='page-title'>Home</h1>
         <img src={imghome} className='header-img'/>
 
-        <button type="button" onClick={()=>{
+        <button type="button"className='button' onClick={()=>{
           toast.loading("loaded please wait...")
         }}> loading</button>
 
-        <button type="button" onClick={()=>{
+        <button className='button' type="button" onClick={()=>{
           toast.dismiss()
           toast.success("Home is loaded successfully")
         }}> successful</button>
